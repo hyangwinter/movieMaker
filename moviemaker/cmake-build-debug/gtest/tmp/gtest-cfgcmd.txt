@@ -1,0 +1,1 @@
+cmd='/home/yangh/clion-2018.2.2/bin/cmake/linux/bin/cmake;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
