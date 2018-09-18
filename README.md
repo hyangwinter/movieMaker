@@ -58,4 +58,13 @@ make -j12
 
 ## Acknowledgements
 
+利用FFMPEG查看视频帧数的方法
+```
+ffmpeg -i "path to file" -f null /dev/null
+```
+or
+```
+ffmpeg -i 00000.avi -map 0:v:0 -c copy -f null -y /dev/null 2>&1 | grep -Eo 'frame= *[0-9]+ *' | grep -Eo '[0-9]+' | tail -1 
+```
+
 This work is largely based on original [example on StackOverflow](https://stackoverflow.com/questions/34511312/how-to-encode-a-video-from-several-images-generated-in-a-c-program-without-wri).
