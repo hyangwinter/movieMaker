@@ -87,6 +87,7 @@ class MovieReader
 	AVCodecContext* c;
 	AVFrame* pFrame;
 	AVFrame* pFrameRGB;
+	AVFrame* pFrameIR;
 
 
 	// The index of video stream.
@@ -97,7 +98,7 @@ public :
 
 	MovieReader(const std::string& filename, const unsigned int width, const unsigned int height);
 
-	bool getFrame(std::string &savepath,const int channels);
+	bool getFrame(std::string &savepath, const int channels, int imgnum);
 
 	~MovieReader();	
 };

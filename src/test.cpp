@@ -54,7 +54,7 @@ int main()
         memcpy(im.data,gray.data,HEIGHT*WIDTH*1);
         writerIR.addImage(im);
         //cv::imwrite("/home/yangh/Desktop/gray/"+to_string(i)+".bmp",gray);
-        if(i%100==0)
+        if(i%100==-1)
         {
             writerRGB.done=TRUE;
             writerIR.done=TRUE;
@@ -83,13 +83,13 @@ int main()
     writerRGB.stop();
     writerIR.stop();
 #else
-    int height=512;
-    int width=640;
-    string inputfile="/media/yangh/Seagate Backup Plus Drive/Data/data/tangshan00/75000956.mp4";
-    string save_path="/home/yangh/Desktop/tangshan/75000956/";
+    int height=960;
+    int width=1280;
+    string inputfile="/home/yangh/Desktop/bmp/2/1.mp4";
+    string save_path="/home/yangh/Desktop/2/";
     MovieReader reader(inputfile, width, height);
-    const int channels=3;
-    reader.getFrame(save_path,channels);
+    const int channels=1;
+    reader.getFrame(save_path,channels,100);
 #endif
     return 0;
 }

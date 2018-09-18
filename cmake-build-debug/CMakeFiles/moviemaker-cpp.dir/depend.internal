@@ -3,7 +3,7 @@
 
 CMakeFiles/moviemaker-cpp.dir/src/reader.cpp.o
  ../include/movie.h
- /home/yangh/Desktop/moviemaker/src/reader.cpp
+ /home/yangh/Code/moviemaker/src/reader.cpp
  /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h
  /usr/include/x86_64-linux-gnu/libavcodec/old_codec_ids.h
  /usr/include/x86_64-linux-gnu/libavformat/avformat.h
@@ -42,7 +42,7 @@ CMakeFiles/moviemaker-cpp.dir/src/reader.cpp.o
  /usr/local/include/opencv2/highgui/highgui_c.h
 CMakeFiles/moviemaker-cpp.dir/src/test.cpp.o
  ../include/movie.h
- /home/yangh/Desktop/moviemaker/src/test.cpp
+ /home/yangh/Code/moviemaker/src/test.cpp
  /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h
  /usr/include/x86_64-linux-gnu/libavcodec/old_codec_ids.h
  /usr/include/x86_64-linux-gnu/libavformat/avformat.h
@@ -124,7 +124,7 @@ CMakeFiles/moviemaker-cpp.dir/src/test.cpp.o
  /usr/local/include/opencv2/video/tracking.hpp
 CMakeFiles/moviemaker-cpp.dir/src/writer.cpp.o
  ../include/movie.h
- /home/yangh/Desktop/moviemaker/src/writer.cpp
+ /home/yangh/Code/moviemaker/src/writer.cpp
  /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h
  /usr/include/x86_64-linux-gnu/libavcodec/old_codec_ids.h
  /usr/include/x86_64-linux-gnu/libavformat/avformat.h
