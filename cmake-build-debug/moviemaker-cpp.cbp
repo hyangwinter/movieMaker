@@ -8,45 +8,45 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug"/>
+				<Option working_dir="/home/yangh/Desktop/moviemaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug"/>
+				<Option working_dir="/home/yangh/Desktop/moviemaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug"/>
+				<Option working_dir="/home/yangh/Desktop/moviemaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="moviemaker-cpp">
-				<Option output="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/moviemaker-cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug"/>
+				<Option output="/home/yangh/Desktop/moviemaker/cmake-build-debug/moviemaker-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yangh/Desktop/moviemaker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/home/yangh/Desktop/moviemaker-cpp-master/include"/>
+					<Add directory="/home/yangh/Desktop/moviemaker/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include/gtk-3.0"/>
 					<Add directory="/usr/include/at-spi2-atk/2.0"/>
@@ -76,22 +76,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 moviemaker-cpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 moviemaker-cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="moviemaker-cpp/fast">
-				<Option output="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/moviemaker-cpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug"/>
+				<Option output="/home/yangh/Desktop/moviemaker/cmake-build-debug/moviemaker-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yangh/Desktop/moviemaker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/home/yangh/Desktop/moviemaker-cpp-master/include"/>
+					<Add directory="/home/yangh/Desktop/moviemaker/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include/gtk-3.0"/>
 					<Add directory="/usr/include/at-spi2-atk/2.0"/>
@@ -121,47 +121,47 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 moviemaker-cpp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 moviemaker-cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yangh/Desktop/moviemaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/src/reader.cpp">
+		<Unit filename="/home/yangh/Desktop/moviemaker/src/reader.cpp">
 			<Option target="moviemaker-cpp"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/src/test.cpp">
+		<Unit filename="/home/yangh/Desktop/moviemaker/src/test.cpp">
 			<Option target="moviemaker-cpp"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/src/writer.cpp">
+		<Unit filename="/home/yangh/Desktop/moviemaker/src/writer.cpp">
 			<Option target="moviemaker-cpp"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/CMakeLists.txt">
+		<Unit filename="/home/yangh/Desktop/moviemaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/cmake/FindFFmpeg.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/cmake/FindFFmpeg.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/cmake/FindRSVG.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/cmake/FindRSVG.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/cmake/Findcairo.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/cmake/Findcairo.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/cmake/Findx264.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/cmake/Findx264.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/yangh/Desktop/moviemaker-cpp-master/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/home/yangh/Desktop/moviemaker/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>

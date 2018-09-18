@@ -56,9 +56,9 @@ libavutil/opt.h
 librsvg-2.0/librsvg/rsvg.h
 -
 
-/home/yangh/Desktop/moviemaker-cpp-master/src/test.cpp
+/home/yangh/Desktop/moviemaker/src/test.cpp
 movie.h
-/home/yangh/Desktop/moviemaker-cpp-master/src/movie.h
+/home/yangh/Desktop/moviemaker/src/movie.h
 vector
 -
 cv.h

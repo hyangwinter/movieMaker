@@ -4,15 +4,15 @@
 
 using namespace std;
 
-MovieReader::MovieReader(const string& filename_, unsigned int width_, unsigned int height_) :
+MovieReader::MovieReader(const string& filename, unsigned int width_, unsigned int height_) :
 
 fc(NULL), width(width_), height(height_)
 
 {
 	int ret;
     framecount=0;
-	const char* fmtext = "mp4";
-	const string filename = filename_ + "." + fmtext;
+	char fmtext[3];
+	strncpy(fmtext,filename.c_str(),3);
 	fmt = av_guess_format(fmtext, NULL, NULL);
 
 	// Get input file format context
@@ -75,7 +75,10 @@ bool MovieReader::getFrame(string &savepath, const int channels)
 		AVPacket pkt;
 		int ret = av_read_frame(fc, &pkt);
 		if (ret < 0) return false;
-
+		if(framecount>1000)
+		{
+			return 0;
+		}
 		if (pkt.stream_index != ivstream)
 			continue;
 

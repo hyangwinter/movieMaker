@@ -1,4 +1,4 @@
-/home/yangh/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yangh/Desktop/moviemaker-cpp-master
+/home/yangh/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yangh/Desktop/moviemaker
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,6 +13,15 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- Boost version: 1.58.0
 -- Found the following Boost libraries:
 --   system
@@ -20,10 +29,34 @@
 --   chrono
 --   date_time
 --   atomic
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 56.60.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 56.40.101
+-- Checking for module 'libavdevice'
+--   No package 'libavdevice' found
+-- Checking for module 'libavutil'
+--   Found libavutil, version 54.31.100
+-- Checking for module 'libavfilter'
+--   No package 'libavfilter' found
+-- Checking for module 'libswscale'
+--   Found libswscale, version 3.1.101
+-- Checking for module 'libpostproc'
+--   No package 'libpostproc' found
+-- Checking for module 'libswresample'
+--   Found libswresample, version 1.2.101
+-- Found FFmpeg: /usr/lib/x86_64-linux-gnu/libavcodec.so;/usr/lib/x86_64-linux-gnu/libavformat.so;/usr/lib/x86_64-linux-gnu/libavutil.so  
+-- Checking for one of the modules 'cairo'
+-- Found RSVG: /usr/lib/x86_64-linux-gnu/librsvg-2.so  
+-- Checking for module 'x264'
+--   Found x264, version 0.148.2643;5c65704
 -- Found x264: /usr/include
 -- Using x264 dir parent as hint: /usr/include
 -- x264 include: /usr/include
 -- x264 lib: /usr/lib/x86_64-linux-gnu/libx264.so
+-- Checking for module 'gtk+-3.0'
+--   Found gtk+-3.0, version 3.18.9
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug
+-- Build files have been written to: /home/yangh/Desktop/moviemaker/cmake-build-debug

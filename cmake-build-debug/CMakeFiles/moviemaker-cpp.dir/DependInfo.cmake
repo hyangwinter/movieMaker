@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yangh/Desktop/moviemaker-cpp-master/src/reader.cpp" "/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/reader.cpp.o"
-  "/home/yangh/Desktop/moviemaker-cpp-master/src/test.cpp" "/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/test.cpp.o"
-  "/home/yangh/Desktop/moviemaker-cpp-master/src/writer.cpp" "/home/yangh/Desktop/moviemaker-cpp-master/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/writer.cpp.o"
+  "/home/yangh/Desktop/moviemaker/src/reader.cpp" "/home/yangh/Desktop/moviemaker/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/reader.cpp.o"
+  "/home/yangh/Desktop/moviemaker/src/test.cpp" "/home/yangh/Desktop/moviemaker/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/test.cpp.o"
+  "/home/yangh/Desktop/moviemaker/src/writer.cpp" "/home/yangh/Desktop/moviemaker/cmake-build-debug/CMakeFiles/moviemaker-cpp.dir/src/writer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
